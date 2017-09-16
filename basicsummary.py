@@ -67,7 +67,7 @@ average_score = int(sum_total/len(sentence_score))
 #print("Average = "+str(average_score))
 
 summary = ""
-
+#change the value have more fun!
 for sentence in sentences:
     if sentence in sentence_score.keys() and sentence_score[sentence] > 1.5 * average_score:
         summary += "\n* "+sentence
